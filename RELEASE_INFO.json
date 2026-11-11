@@ -1,0 +1,21 @@
+{
+  "title_en": "General Physics from the Quantum World",
+  "title_cn": "從量子出發的普通物理",
+  "author": "Yi Yang / 楊毅",
+  "edition": "First edition, 2026",
+  "public_version": "v1",
+  "internal_manuscript_revision": "v4.2",
+  "license": "CC BY-NC 4.0 (original content; third-party exceptions apply)",
+  "editions": {
+    "CN": {
+      "doi": "10.5281/zenodo.24122647",
+      "filename_base": "General_Physics_from_the_Quantum_World_CN_v1",
+      "pdf_pages": 522
+    },
+    "EN": {
+      "doi": "10.5281/zenodo.24122845",
+      "filename_base": "General_Physics_from_the_Quantum_World_EN_v1",
+      "pdf_pages": 532
+    }
+  }
+}
