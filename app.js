@@ -112,7 +112,7 @@
     anchor.href = dois[anchor.dataset.doi];
     if (anchor.classList.contains("doi-link")) anchor.textContent = new URL(anchor.href).pathname.slice(1);
   });
-  for (const [id,url] of [["support-button",supportURL],["feedback-link",feedbackURL],["repository-link",repositoryURL]]) {
+  for (const [id,url] of [["hero-support-button",supportURL],["support-button",supportURL],["feedback-link",feedbackURL],["repository-link",repositoryURL]]) {
     const element = document.getElementById(id);
     element.hidden = !url;
     if(url) element.href = url;

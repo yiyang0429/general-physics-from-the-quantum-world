@@ -9,15 +9,15 @@
 | 中文 | https://doi.org/10.5281/zenodo.24157018 | 517 |
 | English | https://doi.org/10.5281/zenodo.24156964 | 533 |
 
-## 本次更新：啟用單筆贊助
+## 本次更新：首頁加入支持連結
 
 公開贊助頁：https://portaly.cc/yiyang0429/support
 
-網站的中英文支持按鈕均連到此頁。讀者會在 Portaly 選擇 100、200、300、400、500 元並填寫付款資料；網站不直接處理付款。
+首頁「免費閱讀與下載 / Read the book for free」旁已加入「自願支持這本書 / Support this book」連結；原本頁尾的支持入口保留。兩處都連到此頁，教學路徑連結移至下一行。讀者會在 Portaly 選擇 100、200、300、400、500 元並填寫付款資料；網站不直接處理付款。
 
-**現有網站只需覆蓋上傳 `config.js` 與 `index.html`，即可啟用這次更新。** `index.html` 已更新設定檔的快取版本，避免繼續讀到舊的空白贊助網址。也可以按下方流程上傳完整套件。
+**現有網站請覆蓋上傳 `index.html`、`app.js`、`styles.css` 與 `config.js`。** `index.html` 已更新程式與樣式的快取版本。也可以按下方流程上傳完整套件。
 
-已確認公開頁面可開啟並顯示金額與信用卡付款欄位；未送出付款、未驗證實際扣款或撥款。
+已確認公開頁面可開啟並顯示金額與信用卡付款欄位；作者另已回報實際付款測試成功。此回報不代表已驗證平台撥款。
 
 ## 重新上傳現有網站
 
@@ -66,7 +66,7 @@
 
 ## English upload instructions
 
-For this support-link update, replacing `config.js` and `index.html` in the existing repository is sufficient. Both language interfaces link to https://portaly.cc/yiyang0429/support. The public payment page was checked; no payment or payout was performed.
+For this update, replace `index.html`, `app.js`, `styles.css`, and `config.js` in the existing repository. The homepage now places “Support this book” beside “Read the book for free”, with the learning-route link on the next line. Both the top and bottom support links use https://portaly.cc/yiyang0429/support. The author has reported a successful payment test; payout has not been verified.
 
 
 Unzip this package and upload its **contents**, including `assets/`, to the root of the existing repository. Commit to `main`; the existing GitHub Pages deployment will publish the update. Do not upload only the ZIP or put the files inside an extra directory. No build step is required. Public release remains **v1**, with Chinese **517 pages** and English **533 pages**. Book files remain hosted on the edition-specific Zenodo records above.
