@@ -1,6 +1,6 @@
 # General Physics from the Quantum World — book website
 
-《從量子出發的普通物理》中英雙語課本網站。公開版本維持 **v1**；本次同步日期為 **2026-11-12**。
+《從量子出發的普通物理》中英雙語課本網站。公開版本維持 **v1**；本次同步日期為 **2026-11-17**。
 
 網站：https://yiyang0429.github.io/general-physics-from-the-quantum-world/
 
@@ -8,6 +8,16 @@
 | --- | --- | --- |
 | 中文 | https://doi.org/10.5281/zenodo.24157018 | 517 |
 | English | https://doi.org/10.5281/zenodo.24156964 | 533 |
+
+## 本次更新：啟用單筆贊助
+
+公開贊助頁：https://portaly.cc/yiyang0429/support
+
+網站的中英文支持按鈕均連到此頁。讀者會在 Portaly 選擇 100、200、300、400、500 元並填寫付款資料；網站不直接處理付款。
+
+**現有網站只需覆蓋上傳 `config.js` 與 `index.html`，即可啟用這次更新。** `index.html` 已更新設定檔的快取版本，避免繼續讀到舊的空白贊助網址。也可以按下方流程上傳完整套件。
+
+已確認公開頁面可開啟並顯示金額與信用卡付款欄位；未送出付款、未驗證實際扣款或撥款。
 
 ## 重新上傳現有網站
 
@@ -46,7 +56,7 @@
 
 ## 自願贊助與意見表單
 
-`config.js` 的 `supportURL`、`feedbackURL`、`repositoryURL` 保留目前設定。贊助網址留空時，網站隱藏贊助按鈕；填入實際建立的完整 HTTPS 網址後，中英文介面便會顯示。
+`config.js` 的 `supportURL` 已設定為作者的 Portaly 公開贊助頁；`feedbackURL`、`repositoryURL` 維持空白。若日後將贊助網址清空，網站會隱藏贊助按鈕。
 
 詳細設定見 [DONATION_SETUP_zh-TW.md](./DONATION_SETUP_zh-TW.md)。網站只連到外部頁面，不自行處理付款；贊助不影響免費閱讀、下載或既有授權。請勿在公開檔案放入密碼或 API 金鑰。
 
@@ -55,5 +65,8 @@
 作者為楊毅 Yi Yang。保留既有 AI 協作說明與 CC BY-NC 4.0 授權；第三方素材依書內及 `LICENSE.md` 各別標示。
 
 ## English upload instructions
+
+For this support-link update, replacing `config.js` and `index.html` in the existing repository is sufficient. Both language interfaces link to https://portaly.cc/yiyang0429/support. The public payment page was checked; no payment or payout was performed.
+
 
 Unzip this package and upload its **contents**, including `assets/`, to the root of the existing repository. Commit to `main`; the existing GitHub Pages deployment will publish the update. Do not upload only the ZIP or put the files inside an extra directory. No build step is required. Public release remains **v1**, with Chinese **517 pages** and English **533 pages**. Book files remain hosted on the edition-specific Zenodo records above.
